@@ -1,0 +1,73 @@
+﻿@using ICI.ProvaCandidato.Web.Models
+
+@{
+    ViewBag.Title = "ListarTags";
+    List<NoticiaModel> lstNoticia = ViewBag.LstNoticia;
+}
+<section>
+    <div class="container">
+        <div class="col-lg-12 text-center">
+            <h3>Notícias</h3>
+        </div>
+        <div class="row text-right" style="display:block">
+            <a href="/Noticia/CadastrarNoticia/" title="Cadastrar Notícia" class="btn btn-primary">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                Novo
+            </a>
+        </div>
+        <div class="col-lg-12" style="display:flex; justify-content:center; margin-top:10px;">
+            <div class="col-lg-10">
+                <table class="table table-condensed table-bordered table-striped dataTable">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Ações</th>
+                            <th class="text-center">Código</th>
+                            <th class="text-center">Título</th>
+                            <th class="text-center">Texto</th>
+                            <th class="text-center">Usuário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (lstNoticia != null && lstNoticia.Count > 0)
+                        {
+                            foreach (var item in lstNoticia)
+                            {
+                                <tr>
+                                    <td class="text-center">
+                                        <a title="Editar Noticia" class="btn btn-primary" onclick="EditarNoticia(@item.Id)">
+                                            <i class="bi bi-pencil" style="color:white;"></i>
+                                        </a>
+                                        <a title="Excluir Noticia" class="btn btn-primary" onclick="ExcluirNoticia(@item.Id)">
+                                            <i class="bi bi-trash" style="color:white;"></i>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Id
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Titulo
+                                        <div id="erro" style="display: none; color: red;"></div>
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Texto
+                                    </td>
+                                    <td class="text-center">
+                                        @item.NmUsuario
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else {
+                            <tr>
+                                <td colspan="5" class="text-center">
+                                    <label>Não contém notícias cadastradas!</label>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</section>

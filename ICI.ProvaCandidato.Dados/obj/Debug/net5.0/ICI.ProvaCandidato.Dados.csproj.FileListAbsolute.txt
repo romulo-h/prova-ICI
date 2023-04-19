@@ -1,0 +1,45 @@
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.deps.json
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.json
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.dev.json
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.AssemblyReference.cache
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfoInputs.cache
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfo.cs
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.CoreCompileInputs.cache
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\refint\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.genruntimeconfig.cache
+C:\Users\romul\Desktop\ProvaCandidato - 1\ProvaCandidato\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ref\ICI.ProvaCandidato.Dados.dll
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.deps.json
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.json
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.dev.json
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.AssemblyReference.cache
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfoInputs.cache
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfo.cs
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\refint\ICI.ProvaCandidato.Dados.dll
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.genruntimeconfig.cache
+C:\Users\Objetiva\Desktop\API\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ref\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.deps.json
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.json
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.runtimeconfig.dev.json
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\bin\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.AssemblyReference.cache
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfoInputs.cache
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.AssemblyInfo.cs
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.csproj.CoreCompileInputs.cache
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\refint\ICI.ProvaCandidato.Dados.dll
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.pdb
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ICI.ProvaCandidato.Dados.genruntimeconfig.cache
+C:\Users\romul\Documents\ICI.ProvaCandidato\ICI.ProvaCandidato.Dados\obj\Debug\net5.0\ref\ICI.ProvaCandidato.Dados.dll

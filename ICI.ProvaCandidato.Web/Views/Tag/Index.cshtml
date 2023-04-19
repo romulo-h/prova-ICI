@@ -1,0 +1,22 @@
+﻿@using ICI.ProvaCandidato.Dados
+@{
+    ViewBag.Title = "Index";
+    List<Tag> lstTags = ViewBag.LstTags;
+}
+<!doctype html>
+<html lang="pt-br">
+
+<body>
+    <div class="content">
+        <main>
+            <section class="section-default">
+                <div class="container">
+                    <div class="col-md-12 table-responsive" style="overflow-x: auto;" id="lstTags">
+                        @Html.Partial("ListarTags", lstTags)
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

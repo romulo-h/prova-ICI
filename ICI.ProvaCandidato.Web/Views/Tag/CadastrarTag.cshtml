@@ -1,0 +1,20 @@
+﻿@model ICI.ProvaCandidato.Dados.Tag
+@{
+    ViewBag.Title = "CadastrarTag";
+}
+<h4>Cadastrar Tag</h4>
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-horizontal", role = "form", @id = "Tag" }))
+{
+    <div class="col-padding">
+        @Html.HiddenFor(m => m.Id)
+        <div class="col-lg-4">
+            <label>Descrição da Tag</label>
+            @Html.TextBoxFor(m => m.Descricao, new { @class = "form-control" })
+        </div>
+    </div>
+    <div id="erro" style="display: none; color: red;"></div>
+    <div class="col-lg-4" style="margin-top:10px;">
+        <button type="button" class="btn btn-md btn-success" onclick="CadastrarTag()"><i class="fa fa-check"></i> Salvar</button>
+    </div>
+}
+

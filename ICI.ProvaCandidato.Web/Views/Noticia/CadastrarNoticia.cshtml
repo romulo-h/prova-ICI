@@ -1,0 +1,39 @@
+﻿@using ICI.ProvaCandidato.Dados;
+@model Noticia;
+
+@{
+    ViewBag.Title = "CadastrarNoticia";
+    List<Tag> lstTags = ViewBag.LstTag;
+}
+
+<h4>Cadastrar Notícia</h4>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-horizontal", role = "form", @id = "Noticia" }))
+{
+    <div class="col-padding">
+        @Html.HiddenFor(m => m.Id)
+        <div class="col-lg-4">
+            <label>Título da Noticia</label>
+            @Html.TextBoxFor(m => m.Titulo, new { @class = "form-control" })
+        </div>
+        <div class="col-lg-4">
+            <label>Texto</label>
+            @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", @rows = 5 })
+        </div>
+        <div class="col-lg-4" data-filtro="Tag" data-parametro="IdTag" data-tipo="array" data-title="Tag de Noticia">
+            <label>Tags</label>
+            <select class="selectpicker" style="margin-top: -2%;" data-width="100%" id="IdTag" multiple data-actions-box="true" data-live-search="true" title='Selecione uma Tag'>
+                @foreach (var item in lstTags)
+                {
+                    <option value="@item.Id">@item.Descricao </option>
+                }
+            </select>
+        </div>
+    </div>
+    <div id="erro" style="display: none; color: red;"></div>
+    <div class="col-lg-4" style="margin-top:10px;">
+        <button type="button" class="btn btn-md btn-success" onclick="CadastrarNoticia()"><i class="fa fa-check"></i> Salvar</button>
+        <button type="button" class="btn btn-md btn-danger" onclick="LimparNoticia()">Limpar campos</button>
+
+    </div>
+}

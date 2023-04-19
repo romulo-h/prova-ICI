@@ -1,0 +1,82 @@
+﻿@using ICI.ProvaCandidato.Dados
+
+@{
+    ViewBag.Title = "ListarTags";
+    List<Tag> lstTags = ViewBag.LstTags;
+}
+
+<section>
+    <div class="container">
+        <div class="col-lg-12 text-center">
+            <h3>Tags</h3>
+        </div>
+        <div class="col-lg-12" style="display:flex; justify-content:center;">
+            <div class="col-lg-5">
+                <form method="get" action="/Search">
+                    <input type="text" id="Descricao" name="searchTerm" class="form-control" placeholder="Digite aqui sua pesquisa">
+                </form>
+            </div>
+            <div class="col-lg-5">
+                <a onclick="PesquisarTag()" title="Pesquisar Tag" class="btn btn-success">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    Pesquisar
+                </a>
+                <a onclick="LimparPesquisa()" title="Limpar Pesquisa" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    Limpar Pesquisa
+                </a>
+                <a href="/Tag/CadastrarTag/" title="Adicionar Tag" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    Adicionar
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-12" style="display:flex; justify-content:center; margin-top:10px;">
+            <div class="col-lg-10">
+                <table class="table table-condensed table-bordered table-striped dataTable">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Ações</th>
+                            <th class="text-center">Código</th>
+                            <th class="text-center">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (lstTags != null && lstTags.Count > 0)
+                        {
+                            foreach (var item in lstTags)
+                            {
+                                <tr>
+                                    <td class="text-center">
+                                        <a title="Editar Tag" class="btn btn-primary" onclick="EditarTag(@item.Id)">
+                                            <i class="bi bi-pencil" style="color:white;"></i>
+                                        </a>
+                                        <a title="Excluir Tag" class="btn btn-danger" onclick="ExcluirTag(@item.Id)">
+                                            <i class="bi bi-trash" style="color:white;"></i>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Id
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Descricao
+                                        <div id="erro" style="display: none; color: red;"></div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="3" class="text-center">
+                                    <label>Não contém tags cadastradas!</label>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</section>

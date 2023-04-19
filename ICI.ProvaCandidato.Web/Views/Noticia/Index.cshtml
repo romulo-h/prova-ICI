@@ -1,0 +1,24 @@
+﻿@using ICI.ProvaCandidato.Web.Models
+@{
+    ViewBag.Title = "Index";
+    List<NoticiaModel> lstNoticia = ViewBag.LstNoticia;
+}
+<!doctype html>
+<html lang="pt-br">
+
+<body>
+    <div class="content">
+        <main>
+            <section class="section-default">
+                <div class="container">
+                    <div class="col-md-12 table-responsive" style="overflow-x: auto;" id="lstNoticia">
+                        @Html.Partial("ListarNoticia", lstNoticia)
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
